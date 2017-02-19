@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/o0boomcity0o/tcg/issues"
   },
-  "homepage": "https://github.com/o0boomcity0o/tcg#readme"
+  "homepage": "https://github.com/o0boomcity0o/tcg#readme",
+  "dependencies": {
+    "express": "^4.14.1"
+  },
+  "devDependencies": {
+    "jest": "^18.1.0",
+    "supertest": "^3.0.0"
+  }
 }
