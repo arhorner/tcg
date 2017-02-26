@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+ <head>
+   <title><%= title %></title>
+   <link rel="stylesheet" href="/assets/css/main.css">
+ </head>
+ <body>
+   <header>
+     <p>This is my header</p>
+   </header>
+   <main>
+     <p>This is my main</p>
+     <h1>Heading One</h1>
+     <h2>Heading Two</h2>
+     <h3>Heading Three</h3>
+     <h4>Heading Four</h4>
+     <h5>Heading Five</h5>
+     <p>
+       I <strong>really</strong> enjoy dennies
+       <em>and</em> pennies
+     </p>
+     <ul>
+       <li>I am an item</li>
+       <li>I am another item</li>
+     </ul>
+     <ol>
+       <li>I am the first item</li>
+       <li>I am the second item</li>
+     </ol>
+     <h2>Cards</h2>
+     <ul>
+       <% cards.forEach(card => { %>
+        <li><%= card.name %></li>
+      <% }) %>
+    </ul>
+    <table>
+      <thead>
+        <tr>
+          <th>Number</th>
+          <th>Name</th>
+          <th>Set</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% cards.forEach(card => { %>
+        <tr>
+         <td><%= card.nationalPokedexNumber %></td>
+         <td><%= card.name %></td>
+         <td><%= card.set %></td>
+      </tr>
+    <% }) %>
+   </tbody>
+ </table>
+   </main>
+   <footer>
+     <p>This is my footer</p>
+   </footer>
+ </body>
+</html>

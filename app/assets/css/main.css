@@ -1,0 +1,27 @@
+body {
+  font-family: Helvetica;
+}
+
+h1,
+h3,
+h5 {
+  color: red;
+}
+
+p {
+  text-decoration: underline;
+}
+
+table th {
+  padding: 5px;
+  text-align: left;
+}
+
+table td {
+  padding: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+table {
+  border-collapse: collapse;
+}
