@@ -25,3 +25,100 @@ table td {
 table {
   border-collapse: collapse;
 }
+
+.text-colour-blue {
+  color:blue;
+}
+
+.text-capitalise {
+  text-transform: capitalize;
+}
+
+[data-set] {
+  color: pink;
+}
+
+[data-set="splooge"] {
+  color: hotpink;
+}
+
+a:hover {
+  font-size: 30px;
+}
+
+.money:hover {
+  color:green;
+}
+
+.money:visited {
+  color: red;
+}
+
+.firsty li:first-child {
+  color:yellow;
+}
+
+.unit-px { font-size: 30px; }
+.unit-em { font-size: 2em; }
+.unit-rem {font-size: 3rem; }
+.unit-vw { font-size: 5vw; }
+.unit-vh { font-size: 3vh;}
+
+.boxy {
+  display: block;
+  margin: 10px;
+  padding: 10px;
+  border: 5px solid red;
+  font-size: 20px;
+  width: 200px;
+  height: 400px;
+}
+
+* {
+  box-sizing:border-box;
+}
+
+.layout {
+  display: block;
+  float: left;
+  width: 100%;
+  margin: 20px 0;
+  padding: 10px;
+  border: 1px solid blue;
+}
+
+.layout .boxo {
+  display: block;
+  border: 1px solid blue;
+}
+
+.layout .lefty {
+  float: left;
+  width: 40%;
+  height: 100px;
+}
+
+.layout .righty {
+  float: right;
+  width: 40%;
+  height: 100px;
+}
+
+.flexbox {
+  display: flex;
+  width: 100%;
+}
+
+.flexy {
+  flex: 1;
+  padding: 10px;
+  margin: 10px;
+  background: aqua;
+  flex-direction: column;
+}
+
+@media (max-width: 600px) {
+  .hide-mobile {
+    display: none;
+  }
+}
