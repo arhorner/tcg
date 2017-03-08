@@ -1,0 +1,16 @@
+.card-browser {
+  border-collapse: collapse;
+  border: 1px solid #666;
+  margin: 12px;
+}
+
+.card-browser th {
+  background: #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.card-browser .card-list td {
+  padding: 10px;
+  border-bottom: 1px solid #ccc
+}
