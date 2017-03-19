@@ -29,9 +29,11 @@ app.get('/', (req, res) => {
 });
 
 if (process.env.NODE_ENV != 'test') {
-  app.listen(3000, () => {
-    console.log('TCG Server is listening on 3000');
-  });
+   const port = process.env.PORT || 3000;
+
+   app.listen(port, () => {
+     console.log(`TCG server is listening on ${port}`);
+   });
 }
 
 module.exports = app;

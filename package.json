@@ -4,6 +4,7 @@
   "description": "A Pokemon TCG card browser",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "NODE_ENV=test jest"
   },
   "repository": {
