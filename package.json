@@ -20,6 +20,9 @@
   "dependencies": {
     "ejs": "^2.5.6",
     "express": "^4.14.1",
+    "pg": "^6.1.5",
+    "sequelize": "^3.30.4",
+    "sequelize-cli": "^2.7.0",
     "superagent": "^3.5.0"
   },
   "devDependencies": {

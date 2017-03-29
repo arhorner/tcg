@@ -1,0 +1,12 @@
+{
+  "development": {
+    "database": "mount_moon_development",
+    "host": "localhost",
+    "dialect": "postgres"
+  },
+  "test": {
+    "database": "mount_moon_test",
+    "host": "localhost",
+    "dialect": "postgres"
+  }
+}

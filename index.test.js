@@ -6,7 +6,7 @@ test('It responds with text and 200 status', done => {
   .get('/')
   .expect(200)
   .end((err, res) => {
-    expect(res.text).toBe('Hello TCG');
+    expect(res.text).toContain('TCG Browser');
     done();
   });
 });
