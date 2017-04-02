@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('./index');
+const app = require('./../index');
 
 test('It responds with text and 200 status', done => {
   request(app)
