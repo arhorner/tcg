@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
 const request = require('superagent');
+const { tcgApiUrl } = require('../config');
 
 router.get('/', (req, res) => {
   request
-  .get('http://api.pokemontcg.io/v1/cards')
+  .get(`${tcgApiUrl}/v1/cards`)
   .end((err, data) => {
     const { cards } = data.body;
 
